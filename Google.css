@@ -1,0 +1,189 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.header {
+	height: 70px;
+	position: relative;
+	background: #fff;
+}
+
+.H-text {
+	position: absolute;
+	font-family: arial, sans-serif;
+	color: #000;
+	font-size: 13px;
+	top: 23px;
+	right: 151px;
+}
+
+.H-text li {
+	margin-right: 12px;
+}
+
+#name {
+	color: #666;
+}
+
+.top-button {
+	color: #000;
+}
+
+.grid {
+	position: absolute;
+	right: -32px;
+	top: -7px;
+}
+
+.bell {
+	position: absolute;
+	right: -75px;
+	top: -7px;
+}
+
+.profile {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	border-radius: 14px;
+	right: -122px;
+	top: -7px;
+}
+
+.main {
+	position: absolute;
+	width: 100%;
+	top: 70px;
+	bottom: 40px;
+}
+
+.logo {
+	position: absolute;
+	height:92px;
+	width: 272px;
+	top: 128px;
+	left: 40.55%;
+}
+p {
+	position: absolute;
+	font-family: roboto-regular, arial, sans-serif;
+	font-size: 16px;
+	color: #4285f4;
+	top: 187px;
+	right: 39.4%;
+}
+
+.searchbar {
+	position: absolute;
+	width: 586px;
+	height: 40px;
+	top: 250px;
+	left: 30.2%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(228, 228, 228);
+}
+
+.searchbar:hover {
+	border-color: #757575;
+}
+
+.voice {
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 258px;
+	right: 29.7%;
+}
+
+.search, .gamble {
+	position: absolute;
+	width: 126px;
+	height: 36px;
+	background-color: #f2f2f2;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #757575;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+}
+
+.search {
+	left: 41%;
+	top: 322px;
+}
+
+.gamble {
+	right: 41%;
+	top: 322px;
+}
+
+.search:hover {
+	color: #000;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #757575;	
+}
+
+.gamble:hover {
+	color: #000;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #757575;
+}
+
+.footer {
+	height: 40px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	clear: both;
+	background: #f2f2f2;;
+	border-top-color: rgb(228, 228, 228);
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+ul {
+	position: absolute;
+	list-style-type: none;
+	top: 25%;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+.F-left li {
+	margin-left: 28px;
+}
+
+.F-right li {
+	margin-right: 28px;
+}
+
+.F-left {
+	position: relative;
+	float: left;
+}
+
+.F-right {
+	position: relative;
+	float: right;
+}
+
+a {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	}
