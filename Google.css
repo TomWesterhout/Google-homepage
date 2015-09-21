@@ -10,20 +10,31 @@ body {
 	background: #fff;
 }
 
-.H-text {
+ul {
 	position: absolute;
-	font-family: arial, sans-serif;
-	color: #000;
-	font-size: 13px;
-	top: 23px;
-	right: 151px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+.H-text {
+	position: relative;
+	float: right;
+	top: 21px;
+	right: 153px;
 }
 
 .H-text li {
-	margin-right: 12px;
+	margin-right: 11px;
 }
 
-#name {
+.name {
+	font-family: arial, sans-serif;
+	font-size: 13px;
 	color: #666;
 }
 
@@ -31,25 +42,31 @@ body {
 	color: #000;
 }
 
+.H-image {
+	position: relative;
+	float: right;
+	top: 15px;
+	right: -160px;
+}
+
+.H-image li {
+	margin-right: 12px;
+}
+
 .grid {
-	position: absolute;
-	right: -32px;
-	top: -7px;
+	width: 30px;
+	height: 30px;
 }
 
 .bell {
-	position: absolute;
-	right: -75px;
-	top: -7px;
+	width: 30px;
+	height: 30px;
 }
 
 .profile {
-	position: absolute;
-	height: 30px;
-	width: 30px;
-	border-radius: 14px;
-	right: -122px;
-	top: -7px;
+	height: 31px;
+	width: 31px;
+	border-radius: 15px;
 }
 
 .main {
@@ -147,16 +164,16 @@ p {
 	border-top-style: solid;
 }
 
-ul {
-	position: absolute;
-	list-style-type: none;
+.F-left {
+	position: relative;
+	float: left;
 	top: 25%;
-	margin: 0;
-	padding: 0;
 }
 
-li {
-	display: inline;
+.F-right {
+	position: relative;
+	float: right;
+	top: 25%;
 }
 
 .F-left li {
@@ -165,16 +182,6 @@ li {
 
 .F-right li {
 	margin-right: 28px;
-}
-
-.F-left {
-	position: relative;
-	float: left;
-}
-
-.F-right {
-	position: relative;
-	float: right;
 }
 
 a {
